@@ -19,7 +19,7 @@ export default function Home() {
 
       <div className="flex flex-col p-4">
         <Link
-          href="https://replit.com/team/allinai2023"
+          href="https://replit.com/teams/join/yboidqvwryaptmpqnjvwgxcozjstyahk-SummerCamp2023"
           target="_blank"
         >
           <BiLogoPython className="text-9xl" />
