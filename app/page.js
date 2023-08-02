@@ -30,7 +30,7 @@ export default function Home() {
       </div>
       <div className="flex flex-col p-4 content-center justify-center items-center">
         <Link
-          href="https://replit.com/team/Jeopardy-2023"
+          href="https://replit.com/teams/join/ymiglrrrulxukbpgsixucgqtimahafuc-Jeopardy-2023"
           target="_blank"
         >
           <FcCollaboration className="text-9xl" />
