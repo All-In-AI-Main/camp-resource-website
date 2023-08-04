@@ -3,6 +3,7 @@ import { FcOpenedFolder } from "react-icons/fc";
 import { BiLogoPython } from "react-icons/bi";
 import { FcCollaboration } from "react-icons/fc";
 import { LiaKaggle } from "react-icons/lia";
+import { TbBrowserCheck } from "react-icons/tb";
 import Link from "next/link";
 
 export default function Home() {
@@ -45,6 +46,15 @@ export default function Home() {
           <LiaKaggle className="text-9xl" />
         </Link>
         <p className="text-4xl font-bold text-center">Kaggle</p>
+      </div>
+      <div className="flex flex-col p-4 content-center justify-center items-center">
+        <Link
+          href="https://replit.com/teams/join/wlqagcpanyltciqqyxvkdanvyojntjkt-google-teachable-template"
+          target="_blank"
+        >
+          <TbBrowserCheck className="text-9xl" />
+        </Link>
+        <p className="text-4xl font-bold text-center">Teachable</p>
       </div>
     </main>
   );
